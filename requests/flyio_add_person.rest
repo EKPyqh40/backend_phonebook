@@ -1,0 +1,23 @@
+POST https://ekpyqh40-backend-phonebook.fly.dev/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Johnny",
+    "number": "112"
+}
+
+###
+POST https://ekpyqh40-backend-phonebook.fly.dev/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "number": "112"
+}
+
+###
+POST https://ekpyqh40-backend-phonebook.fly.dev/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Johnny"
+}
