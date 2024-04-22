@@ -22,10 +22,118 @@ content-type: application/json
     "name": "Johnny"
 }
 ###
-PUT http://localhost:3001/api/persons/6622f2aef842c225e460acff HTTP/1.1
+PUT http://localhost:3001/api/persons/66262860072b4ff4f162f75d HTTP/1.1
 content-type: application/json
 
 {
     "name": "Johnny",
     "number": "114"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jo",
+    "number": "111"
+}
+
+###
+PUT http://localhost:3001/api/persons/66262860072b4ff4f162f75d HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jo",
+    "number": "114"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "133-1232133"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "09-1234556"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "040-22334455"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "23-13131332"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "12-1"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "1-123112313"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "1234556"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "1-22334455"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "10-22-334455"
+}
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jos",
+    "number": "12-"
 }
